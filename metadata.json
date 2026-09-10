@@ -1,0 +1,6 @@
+{
+  "name": "PeraFolio",
+  "description": "PeraFolio — Personal finance and e-wallet portfolio manager with real-time balance sync for GoTyme, MariBank, Maya (3 pockets), Wise, and GCash, savings targets, and financial analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

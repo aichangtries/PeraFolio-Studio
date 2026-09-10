@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e1065" />
+      <stop offset="50%" stop-color="#4c1d95" />
+      <stop offset="100%" stop-color="#3b0764" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#e9d5ff" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.08" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Outer glowing accent ring -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#accentGrad)" stroke-width="12" opacity="0.5" stroke-dasharray="16 12"/>
+  
+  <!-- Central Glass Card Shape -->
+  <rect x="136" y="156" width="240" height="200" rx="36" fill="url(#cardGrad)" stroke="#ffffff" stroke-width="4" stroke-opacity="0.4" />
+  
+  <!-- Card chip -->
+  <rect x="168" y="196" width="52" height="38" rx="8" fill="#fbbf24" opacity="0.95" />
+  
+  <!-- Savings Arrow / Chart line upward -->
+  <path d="M 180 300 L 240 240 L 290 270 L 348 200" fill="none" stroke="url(#accentGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <polyline points="320,200 348,200 348,228" fill="none" stroke="url(#accentGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Currency / Coin accent with ₱ / Pera symbol -->
+  <circle cx="330" cy="190" r="28" fill="url(#accentGrad)" />
+  <text x="330" y="198" font-size="24" font-family="sans-serif" font-weight="900" fill="#2e1065" text-anchor="middle" dominant-baseline="central">₱</text>
+</svg>
